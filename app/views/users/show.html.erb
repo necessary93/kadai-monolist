@@ -6,7 +6,7 @@
     <h1><%= @user.name %></h1>
   </div>
   <div class="status text-center">
-    <ul>
+    <ul class="nav nav-tabs nav-justified">
       <li>
         <div class="status-label">WANT</div>
         <div id="want_count" class="status-value">
@@ -16,7 +16,7 @@
       <li>
         <div class="status-label">HAVE</div>
         <div id="have_count" class="status-value">
-          xxx
+          <%= @count_have %>
         </div>
       </li>
     </ul>
